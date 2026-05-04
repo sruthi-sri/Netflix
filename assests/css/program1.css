@@ -1,0 +1,95 @@
+body {
+  background: #d91a1a;
+  background: radial-gradient(
+    circle,
+    rgba(217, 26, 26, 1) 35%,
+    rgba(110, 50, 50, 1) 68%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  font-size: larger;
+}
+.container h1 {
+  text-align: center;
+  color: black;
+}
+
+.container {
+  width: 380px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.containerone {
+  color: rgb(250, 247, 247);
+  font-size: 17px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.divone {
+  background: white;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.divtwo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.divthree {
+  width: 45px;
+  height: 45px;
+  background: #eef0f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.divone h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.divtwo p {
+  margin: 2px 0 0 0;
+  color: gray;
+  font-size: 13px;
+}
+
+input {
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(207, 48, 48);
+}
+.btn {
+  text-align: center;
+}
+.btn button {
+  border-radius: 6px;
+  background-color: rgb(69, 125, 69);
+  padding: 9px;
+  width: 90px;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: po;
+}
+
+.containerfour h1 {
+  color: rgb(242, 239, 239);
+}
